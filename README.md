@@ -42,3 +42,12 @@ Failed to compile.
 ./src/index.js
 Error: [BABEL] /Users/booyaa/Documents/Coding/madetech/learntech/coreskills/webappdev/owl/react-storybork/src/index.js: Cannot find module '@babel/plugin-syntax-jsx' (While processing: "/Users/booyaa/Documents/Coding/madetech/learntech/coreskills/webappdev/owl/react-storybork/node_modules/babel-preset-react-app/index.js$1$0")
 ```
+
+## To fix
+
+```console
+rm -rf react-storybork
+git clone git@github.com:booyaa/react-storybork.git
+yarn install
+yarn start # woohoo! Also storybook and jest are working too.
+```
