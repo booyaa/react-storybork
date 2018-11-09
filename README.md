@@ -8,5 +8,6 @@ Will update when I have a fix.
 
 ```console
 npx create-react-app react-storybork
+cd react-storybork
 yarn start # still works
 ```
